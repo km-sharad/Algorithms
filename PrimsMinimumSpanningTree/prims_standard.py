@@ -1,6 +1,7 @@
 '''
 This is a straight-forward implementation of the Prim's algorithm to find the minimum spanning tree (MST). 
 The running time complexity of this algorithm is O(mn); m = # edges, n = #nodes
+For a graph with 500 nodes and ~125,000 edges this standard algorithm takes ~60 seconds to execute and the optimized (heap) algorithm ~2 seconds.
 '''
 
 from datetime import datetime

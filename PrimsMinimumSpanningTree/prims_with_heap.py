@@ -1,7 +1,8 @@
 '''
 This is an efficient implementation of the Prim's algorithm to find the minimum spanning tree (MST) that uses Heap data structure. 
 The heap implements a min priority queue and stores the node with (current) min cost to be added to the MST in the next iteration.
-The running time complexity of this algorithm is O(mlogn); m = # edges, n = #nodes
+The running time complexity of this algorithm is O(mlogn); m = # edges, n = #nodes.
+For a graph with 500 nodes and ~125,000 edges this optimized algorithm takes ~2 seconds to execute and the standard algorithm ~60 seconds.
 '''
 
 from functools import reduce
