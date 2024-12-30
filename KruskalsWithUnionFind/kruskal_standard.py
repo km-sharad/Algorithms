@@ -49,7 +49,7 @@ def read_all_edges(filename):
 
     return edges
 
-#used to find cycles in graph
+#used to find cycles in the graph
 def bfs_path(mst_adj_lst, u, v):
     def bfs(v, visited):
         if(q.empty()):
