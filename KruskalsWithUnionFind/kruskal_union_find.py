@@ -92,8 +92,10 @@ def run_kruskals_uf(v, edges, uf):
 
     current_time_end = datetime.now()            
 
-    print('mst_cost: ', mst_cost)
-    print('# MST edges', len(mst_edges))
+    print('#nodes in MST: ', len(x))
+    print('# edges in MST: ', len(mst_edges))
+    print('MST cost: ', mst_cost)
+    
     plot_mst(mst_edges)
 
     execution_time = (current_time_end - current_time_begin).total_seconds() * 1000

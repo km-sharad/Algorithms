@@ -151,5 +151,4 @@ def run_kruskals(adj_lst, edges):
 
 if __name__ == '__main__':
     adj_lst, edges = build_adj_list('clustering1.txt')
-    print('# edges; ', len(edges))
     run_kruskals(adj_lst, edges)
